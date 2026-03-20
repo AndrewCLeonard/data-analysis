@@ -1,25 +1,14 @@
-# SQL Portfolio — Labor Organizing Data Analysis
+# Data Analysis Portfolio
 
-Production queries written against PostgreSQL and ClickHouse databases 
-supporting 50+ labor organizing campaigns.
+SQL queries and Python scripts from production data analysis work supporting labor organizing campaigns across the United States.
 
-## Highlighted Queries
+## Contents
 
-**not_in_unit_over_time.sql**
-Weekly trend analysis tracking worker attrition by union support status. 
-Uses a date spine to preserve weeks with zero activity, classifying workers 
-who signed authorization cards before vs. after removal from the bargaining unit.
+- [`sql/`](./sql/) — Production SQL queries across PostgreSQL and ClickHouse
+- `python/` — Coming soon
 
-**before_after_hiring_date.sql**
-Hire date classification report using a configurable cutoff date parameter. 
-Resolves hire dates from multiple sources with documented fallback logic.
+## About Me
 
-**hyundai_mobis_kia_combined_query.sql**
-Cross-campaign contact report spanning 8 plants. Pivots multiple phone 
-numbers and emails per person using window functions, with filtering for 
-active, contactable workers only.
+Data Analyst with 2+ years of hands-on experience building pipelines, dashboards, and data cleaning workflows against real-world, messy data.
 
-## Additional Queries
-
-- `name_source_2.sql` — Priority-ranked name matching including nicknames and suffixes
-- `card_signings_over_time.sql` — Wide campaign report pulling multiple tag dimensions
+[LinkedIn](https://linkedin.com/in/LeonardCodes)
