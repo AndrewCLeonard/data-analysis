@@ -14,7 +14,7 @@ who signed authorization cards before vs. after removal from the bargaining unit
 Hire date classification report using a configurable cutoff date parameter. 
 Resolves hire dates from multiple sources with documented fallback logic.
 
-**hyundai_mobis_kia_combined_query.sql**
+**multi_plant_combined_query.sql**
 Cross-campaign contact report spanning 8 plants. Pivots multiple phone 
 numbers and emails per person using window functions, with filtering for 
 active, contactable workers only.
